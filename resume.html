@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <script>
+        var desW = 640;
+        var winW = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = winW / desW * 100 + 'px';
+        document.documentElement.height=document.documentElement.clientHeight;
+    </script>
+    <link rel="stylesheet" href="css/reset.min.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/style1.css"/>
+</head>
+<body>
+<div class="music">
+    <audio src="audio/sky.mp3"  preload="none" loop id="m"></audio>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide1" id="slide1" >
+            <img src="images/bg4.jpg" class="bg-4" style=""/>
+            <div class="pic1-1">
+                <img src="images/1-1.png"/>
+            </div>
+            <div class="pic1-2">
+                <img src="images/1-2.png"/>
+            </div>
+            <p class="title"><span>RESUME</span><br/><span class="ming">个人简历</span></p>
+            <span class="sx1"></span>
+            <span class="sx2"></span>
+            <img src="images/jt.PNG">
+
+        </div>
+        <div class="swiper-slide slide3"  >
+            <div class="pic3-1">
+                <img src="images/3-1.png"/>
+            </div>
+            <div class="item">
+                <span>基本信息</span>
+                <div>
+                    <p><span>姓名：</span><span>孙一鸣</span></p>
+                    <p><span>性别：男</span></p>
+                </div>
+                <p class="age"><span>年龄：23</span></p>
+                <p class="phone"><span>手机：</span><span>18611309282</span></p>
+            </div>
+            <ul class="mofang swiper-no-swiping">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="swiper-slide slide2"  >
+            <span class="jn"><img src="images/bsj1.png"/></span>
+            <div class="pic2Box">
+                <img src="images/2-2png.png"/>
+            </div>
+           <div class="show js">
+                <img src="images/js.png"/>
+                <span style="margin-left: 0;width: auto">Javascript</span>
+            </div>
+            <div class="show html5">
+                <img src="images/html5.png"/>
+                <span style="margin-left: 0;width: 120px;text-align: left">HTML5应用</span>
+            </div>
+           <div class="show node">
+                <img src="images/node.png"/>
+                <span style="margin-left: 10px;width: 100px;text-align: left">Node.Js</span>
+            </div>
+                <div class="show app">
+                    <img src="images/app.png"/>
+                    <span >原生移动app开发</span>
+                </div>
+            <div class="show reac">
+                  <img src="images/react.png"/>
+                  <span>angularjs/react</span>
+              </div>
+            <div class="more">
+                <img src="images/1.png"/>
+                <img src="images/2.png"/>
+                <img src="images/3.png"/>
+                <img src="images/4.png"/>
+                <img src="images/5.png"/>
+                <img src="images/6.png"/>
+                <img src="images/7.png"/>
+                <img src="images/8.png"/>
+                <img src="images/9.png"/>
+            </div>
+            <div class="ip4"><img src="images/ip4.gif" alt=""/></div>
+        </div>
+        <div class="swiper-slide slide4"  >
+            <div class="pic4-1">
+                <img src="images/4-1.png"/>
+            </div>
+            <div class="pic4-2">
+                <img src="images/4-2.png"/>
+                <p class="p1"></p>
+            </div>
+            <div class="pic4-3">
+                <img src="images/4-3.png"/>
+                <p class="p2"></p>
+            </div>
+        </div>
+        <div class="swiper-slide slide5"  >
+            <div class="title"><span>孙一鸣个人简历</span></div>
+            <div class="wx">
+                <img src="images/wx.png" class="pic"/>
+            </div>
+            <img src="images/wx-sm.png" class="sm"/>
+            <p >扫描微信二维码添加好友</p>
+            <div class="pic5Box"></div>
+        </div>
+    </div>
+</div>
+<script>
+    var less = {
+        env:'development',
+        poll:1000
+    }
+</script>
+<script src="js/less-2.5.3.min.js"></script>
+<script>
+    less.watch();
+</script>
+<script src="js/swiper.min.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/resume.js"></script>
+</body>
+</html>
